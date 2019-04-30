@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.bc {
+  margin: 200px auto 0;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border: 1px solid #333;
+  background: url("../assets/img-section-2.png") no-repeat center/contain;
+  animation: rotate 1s ease infinite; }
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
